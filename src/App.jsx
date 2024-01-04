@@ -1,12 +1,8 @@
 import { useState, useEffect } from "react";
 import { fetchDataFromApi } from "./UTILS/api";
+import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
-
-  let style = {
-
-    color: "red",
-  }
 
 
   useEffect(() => {
@@ -28,7 +24,19 @@ function App() {
 
 
 
-  return <h1 style={style}>Sada shiv sarvada shiv</h1>
+  return (
+
+    <>
+      {/* <h1>jai shiv</h1> */}
+
+
+      <Navbar />
+
+
+    </>
+
+
+  )
 
 
 }

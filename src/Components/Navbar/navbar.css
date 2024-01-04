@@ -1,0 +1,32 @@
+.navContainer {
+    display: flex;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.108);
+    height: 5rem;
+    align-items: center;
+}
+
+#root>div>div>svg:nth-child(1) {
+    transition: 0.1s ease-in;
+    cursor: pointer;
+}
+
+#root>div>div>svg:nth-child(1):hover {
+    opacity: 0.5;
+}
+
+
+.navRight {
+    margin-left: 70%;
+    display: flex;
+    gap: 40px;
+}
+
+#root>div>div>svg:nth-child(2) {
+    cursor: pointer;
+    transform: 0.1s ease-in;
+}
+
+#root>div>div>svg:nth-child(2):hover {
+    opacity: 0.5;
+}
